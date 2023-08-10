@@ -1,6 +1,10 @@
 # PLUNDERVOLTT
 
-# FANCONTROL
+## CPUPOWER
+
+sudo apt-get install -y linux-tools-$(uname -r)
+
+## FANCONTROL
 sudo systemctl disable apparmor
 
 sudo dell-bios-fan-control 0
